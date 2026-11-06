@@ -1,26 +1,36 @@
-# Plant Disease Detection
+# 🌿 Plant Disease Detection
 
-A Streamlit application that predicts plant leaf diseases using a
-trained deep learning model.
+**AI-powered plant disease classification using Deep Learning and Streamlit.**
 
-## Features
+## 🚀 Live Demo
 
-- Upload a leaf image
-- Image preprocessing at 224 × 224 RGB
-- Pixel normalization using 1/255
-- Plant disease prediction
-- Top 3 predictions with confidence scores
+[**Click here to use Plant Disease Detection**](https://plant-disease-detection-hcjsonzsuzujmuzlzptwsi.streamlit.app/)
 
-## Project Files
+## 🛠️ Technologies Used
 
-- `app.py` - Streamlit user interface
-- `utils.py` - Model loading, preprocessing, and prediction
-- `plant_diseaes_prediction_model.h5` - Trained Keras model
-- `class_indeces.json` - Class index mapping
+- Python
+- TensorFlow / Keras
+- Streamlit
+- NumPy
+- Pillow
+- Hugging Face Hub
 
-## Run Locally
+## ✨ Features
 
-Install dependencies:
+- Upload plant leaf images.
+- Detect plant disease using a trained CNN model.
+- Display the top 3 predictions.
+- Show prediction confidence scores.
+
+## 💻 Run Locally
 
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🤖 Model
+
+The trained model is hosted on Hugging Face:
+
+[Plant Disease Detection Model](https://huggingface.co/gauravkumar8923/plant-disease-model)
